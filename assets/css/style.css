@@ -98,6 +98,7 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -130,5 +131,12 @@ footer {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
+    }
+}
+
+/* Larger devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #edc051;
     }
 }
