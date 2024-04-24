@@ -22,6 +22,10 @@ header {
     background-color: aqua; 
 }
 
+h1 {
+   font-family: 'Jost' , sans serif;
+}
+
 /* Main content */
 main {
     background-color: lightcoral;
