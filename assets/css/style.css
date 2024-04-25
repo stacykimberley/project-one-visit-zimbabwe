@@ -102,15 +102,18 @@ main {
 
 #cover-text {
     /* Final rgba value makes the color semi-transparent */
-    background-color: rgba(230, 175, 73, .7);
+    background-color: rgba(230, 175, 73, .3);
+    color: #fffcf7;
     font-size: 130%;
     position:absolute;
-    bottom: 30px;
-    width: 80%;
-    min-height: 100px;
+    bottom:150px;
+    right: 0;
+    width: 90%;
+    min-height: 80px;
     padding-top: 40px,
-    padding-left: 10px;
-
+    /* Comment out style 
+    padding-left:10px; */
+    
 }
 
 #cover-text > h3 {
@@ -175,6 +178,13 @@ main {
     }
     #hero {
         height: 600px;
+    }
+
+    #cover-text {
+        bottom: 0;
+        width: 80%;
+        font-size: 150%;
+    }
 }
 
 /* Larger devices (laptops and desktops, 992px and up) */
