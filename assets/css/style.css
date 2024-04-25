@@ -1,5 +1,5 @@
 /* Google fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser*/
 * {
@@ -38,7 +38,7 @@ header a {
 }
 
 h1 {
-    font-family: 'PT Sans Narrow', sans serif;
+    font-family: 'Roboto Condensed', sans serif;
     text-transform: capitalize;
     letter-spacing: 2px;
 }
