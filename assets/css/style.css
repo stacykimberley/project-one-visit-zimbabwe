@@ -54,7 +54,7 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #edc051;
+    border-bottom: 1px solid #e6af49;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -80,31 +80,32 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    color: #edc051;
+    color: #e6af49;
 }
 
 /* Main content */
 main {
-    background-color: lightcoral;
+    background-color: lightseagreen;
     /* Make main element take up any surplus space to push footer to bottom of page */
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
 /* Footer */
-footer {
+#social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    background-color: #034539;
 
 }
 
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #4a4a4a;
+    color: #ffffff;
 }
 
 
