@@ -195,4 +195,11 @@ main {
 
     #hero {
         height: 800px;
+    }
+
+    #cover-text {
+        bottom: 300px;
+        width: 50%;
+        font-size: 250%;
+    }
 }
