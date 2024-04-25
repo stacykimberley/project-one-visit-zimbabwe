@@ -122,7 +122,9 @@ main {
     text-align: center;
 } 
 
-#
+#brief-description > div > h3, #brief-description > div > h2 {
+    color: #4a4a4a;
+}
 
 /* Footer */
 #social-networks {
