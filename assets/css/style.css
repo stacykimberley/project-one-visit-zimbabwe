@@ -97,7 +97,6 @@ main {
     width: 100%;
     background: url("../images/hero-image.avif") no-repeat center center/cover;
     position: relative;
-
 }
 
 #cover-text {
@@ -126,8 +125,8 @@ main {
     color: #4a4a4a;
 }
 
-#summary > div {
-    
+#brief-description > #summary > div, #brief-description > #culture-weather > div {
+    text-align: justify;
 }
 
 /* Footer */
