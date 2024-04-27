@@ -128,10 +128,24 @@ main {
 
 #brief-description > #summary > div, #brief-description > #culture-weather > div {
     text-align: justify;
+    padding-bottom: 30px;
+}
+
+.brief-description {
+    padding: 10px;
+    text-align: center;
 }
 a {
     color:#034539; 
     font-weight: bold;
+}
+
+#suggestions > h2 {
+    color:#4a4a4a;
+}
+
+#suggestions > div > h3 {
+    color: #4a4a4a;
 }
 
 /* Footer */
@@ -187,6 +201,10 @@ a {
     main {
         /* Push main content down to accommodate larger header */
         margin-top:79px;
+        font-size: 150%;
+    }
+    .brief-description {
+        padding: 20px;
     }
     #hero {
         height: 600px;
@@ -214,4 +232,7 @@ a {
         width: 50%;
         font-size: 250%;
     }
+
+    .brief-description {
+        padding: 100px;
 }
