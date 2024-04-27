@@ -25,6 +25,10 @@ h1, h2, h3 {
     color:#fffcf7
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #034539;
@@ -139,13 +143,45 @@ a {
     color:#034539; 
     font-weight: bold;
 }
+/* Suggestions section */
 
-#suggestions > h2 {
-    color:#4a4a4a;
+#suggestions {
+    background: url('../images/hero-image.avif');
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#suggestions div {
+    color:#fffcf7;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    /* Divs will expand on wider screens */
+    flex-basis: 250px;
+    flex-grow:1;
+    /* Offwhite border around divs */
+    border: 2px solid #fffcf7;
+}
+
+#restaurants, #pubs-clubs, #sights, #relax {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: justify;
+}
+#suggestions h2 {
+    color: #fffcf7;
+    text-align: justify;
+}
+
+#suggestions p {
+    text-align: center;
 }
 
 #suggestions > div > h3 {
-    color: #4a4a4a;
+    color: #fffcf7;
+    text-decoration: underline;
+    padding: 15px;
+    text-align: center;
 }
 
 /* Footer */
