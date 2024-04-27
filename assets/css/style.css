@@ -128,6 +128,10 @@ main {
 #brief-description > #summary > div, #brief-description > #culture-weather > div {
     text-align: justify;
 }
+a {
+    color:#034539; 
+    font-weight: bold;
+}
 
 /* Footer */
 #social-networks {
