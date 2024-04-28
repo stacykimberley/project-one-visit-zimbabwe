@@ -353,14 +353,22 @@ a {
         border-bottom: 1px solid #edc051;
     }
 
+    #logo {
+        font-size: 500%;
+    }
+
+    #menu {
+        font-size: 150%;
+    }
+
     #hero {
-        height: 800px;
+        height: 600px;
     }
 
     #cover-text {
         bottom: 300px;
-        width: 50%;
-        font-size: 250%;
+        width: 60%;
+        font-size: 180%;
     }
 
     .brief-description {
