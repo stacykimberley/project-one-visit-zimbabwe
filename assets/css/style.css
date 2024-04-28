@@ -170,8 +170,12 @@ main {
     font-color: #4a4a4a;
 }
 
-#redirect h2 {
-color:#034539
+#thank-you {
+    text-align:center;
+    padding-top: 200px;
+}
+#thank-you > .redirect > h1 {
+    color:#034539;
 }
 
 
