@@ -170,6 +170,11 @@ main {
     font-color: #4a4a4a;
 }
 
+#redirect h2 {
+color:#034539
+}
+
+
 #brief-description>div>h3,
 #brief-description>div>h2 {
     color: #4a4a4a;
