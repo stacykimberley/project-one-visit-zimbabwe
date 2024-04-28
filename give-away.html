@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Meta tags for search engines -->
     <meta name="description" content="Visit Zimbabwe. Zimbabwean Tourism. Visit Southern Africa. African tourism ">
-    <meta name="keywords" content="visit Zimbabwe, Zimbabwean tourism, visit Southern Africa, African tourism, victoria falls, antelope park, great Zimbabwe, safari, waterfalls">
+    <meta name="keywords"
+        content="visit Zimbabwe, Zimbabwean tourism, visit Southern Africa, African tourism, victoria falls, antelope park, great Zimbabwe, safari, waterfalls">
     <!-- Project title-->
     <title>Visit Zimbabwe</title>
     <!-- Favicon -->
@@ -36,12 +37,40 @@
                 <li> <a href="give-away.html" class="active">Give away</a> </li>
             </ul>
         </nav>
-        
+
     </header>
-    
+
 
     <!-- Main content -->
-    <main> 
+    <main>
+        <hr class="give-away-border">
+        <section id="give-away">
+            <form id="give-away-form" action="https://formdump.codeinstitute.net">
+                <h2> <i class="fa-solid fa-envelope"></i> Contact us! </h2>
+                <h3> Sign up to our monthly newsletter & get 15% off your 1st holiday: </h3>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                <label for="message">Message</label>
+                <input type="text" name="message" id="message" class="text-input">
+                <br>
+                <div class="radio-button">
+                    <div>
+                        <label for="subscribe">Subscribe</label>
+                        <input type="radio" name="subscribe" id="subscribe" value="yes">
+                    </div>
+
+                </div>
+                <button type="submit" class="subscribe-button"> Submit</button>
+            </form>
+        </section>
+        <hr class="give-away-border">
         <section id="suggestions">
             <h2 class="hidden-heading"> Interesting places to visit</h2>
             <div id="restaurants">
@@ -90,10 +119,18 @@
     <!-- Footer -->
     <footer>
         <ul id="social-networks">
-            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a></li>
-            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a></li>
         </ul>
     </footer>
 

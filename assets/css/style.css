@@ -18,11 +18,13 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Roboto Condensed', sans serif;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color:#fffcf7
+    color: #fffcf7
 }
 
 .hidden-heading {
@@ -94,6 +96,10 @@ main {
     /* Make main element take up any surplus space to push footer to bottom of page */
     flex: 1 0 auto;
     margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+
 }
 
 #hero {
@@ -108,29 +114,70 @@ main {
     background-color: rgba(230, 175, 73, .3);
     color: #fffcf7;
     font-size: 130%;
-    position:absolute;
-    bottom:150px;
+    position: absolute;
+    bottom: 150px;
     right: 0;
     width: 90%;
     min-height: 80px;
     padding-top: 40px,
-    /* Comment out style 
-    padding-left:10px; */
-    
 }
 
-#cover-text > h3 {
+#cover-text>h3 {
     font-family: 'Raleway', sans serif;
     text-transform: capitalize;
     text-align: center;
-} 
-
-#brief-description > div > h3, #brief-description > div > h2 {
-    color: #4a4a4a;
-    text-decoration:underline #4a4a4a 2px;
 }
 
-#brief-description > #summary > div, #brief-description > #culture-weather > div {
+.give-away-border{
+    border-top: 2px solid #034539;
+}
+
+
+#give-away {
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+    margin: 20px auto;
+}
+
+#give-away h2,
+#give-away h3 {
+    color: #034539;
+}
+
+#radio-button {
+    width: 100%;
+    color: #4a4a4a;
+}
+
+#give-away-form {
+    display:column;
+    padding: 20px;
+}
+
+#give-away-form > h2, #give-away-form > h3 {
+    margin-bottom: 20px;
+}
+
+.subscribe-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    color:#4a4a4a;
+}
+
+.radio-button {
+    font-color: #4a4a4a;
+}
+
+#brief-description>div>h3,
+#brief-description>div>h2 {
+    color: #4a4a4a;
+    text-decoration: underline #4a4a4a 2px;
+}
+
+#brief-description>#summary>div,
+#brief-description>#culture-weather>div {
     text-align: justify;
     padding-bottom: 30px;
 }
@@ -138,11 +185,14 @@ main {
 .brief-description {
     padding: 10px;
     text-align: center;
+
 }
+
 a {
-    color:#034539; 
+    color: #034539;
     font-weight: bold;
 }
+
 /* Suggestions section */
 
 #suggestions {
@@ -152,22 +202,26 @@ a {
 }
 
 #suggestions div {
-    color:#fffcf7;
+    color: #fffcf7;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     /* Divs will expand on wider screens */
-    flex-basis: 250px;
-    flex-grow:1;
+    flex-basis: 200px;
+    flex-grow: 1;
     /* Offwhite border around divs */
     border: 2px solid #fffcf7;
 }
 
-#restaurants, #pubs-clubs, #sights, #relax {
+#restaurants,
+#pubs-clubs,
+#sights,
+#relax {
     display: flex;
     flex-direction: column;
     width: 100%;
     text-align: justify;
 }
+
 #suggestions h2 {
     color: #fffcf7;
     text-align: justify;
@@ -177,7 +231,7 @@ a {
     text-align: center;
 }
 
-#suggestions > div > h3 {
+#suggestions>div>h3 {
     color: #fffcf7;
     text-decoration: underline;
     padding: 15px;
@@ -233,15 +287,29 @@ a {
         margin: 0 0.5rem;
     }
 
+    #give-away-form {
+        max-width: 100%;
+        position: absolute;
+        left: 10px;
+        top: 150px;
+        text-align:justify;
+    }
+
+    #give-away-form > h2, #give-away-form > h3 {
+        padding-bottom: 20px;
+    }
+
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top:79px;
+        margin-top: 79px;
         font-size: 150%;
     }
+
     .brief-description {
         padding: 20px;
     }
+
     #hero {
         height: 600px;
     }
@@ -251,6 +319,27 @@ a {
         width: 80%;
         font-size: 150%;
     }
+
+    .text-input:hover {
+        border-color:#034539;
+    }
+    
+    .join-button:hover {
+        background-color: #034539;
+        color: #454b1b;
+    }
+
+    #give-away {
+        margin:0;
+        border:0;
+        padding:0;
+    }
+
+    #give-away-form > h2, #give-away-form > h3 {
+        margin-bottom:0;
+        padding:0;
+    }
+
 }
 
 /* Larger devices (laptops and desktops, 992px and up) */
@@ -271,4 +360,13 @@ a {
 
     .brief-description {
         padding: 100px;
-}
+    }
+
+    #give-away-form {
+        text-align: justify;
+        padding-left: 20%;
+    }
+
+    #give-away-form > h2, #give-away-form > h3 {
+        margin-bottom: 50px;
+    }
