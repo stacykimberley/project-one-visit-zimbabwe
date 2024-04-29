@@ -227,6 +227,19 @@ a {
     font-weight: bold;
 }
 
+/* Change font color for h2 in giveaway page align text center*/
+
+.great-zim-headings {
+    color:#034539;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.great-zim-info {
+    text-align:center;
+    padding: 20px;
+}
+
 /* Suggestions section */
 
 #suggestions {
