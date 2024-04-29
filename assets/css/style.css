@@ -128,7 +128,7 @@ main {
     text-align: center;
 }
 
-.give-away-border{
+.give-away-border {
     border-top: 2px solid #034539;
 }
 
@@ -150,11 +150,12 @@ main {
 }
 
 #give-away-form {
-    display:column;
+    display: column;
     padding: 20px;
 }
 
-#give-away-form > h2, #give-away-form > h3 {
+#give-away-form>h2,
+#give-away-form>h3 {
     margin-bottom: 20px;
 }
 
@@ -163,15 +164,16 @@ main {
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    color:#4a4a4a;
+    color: #4a4a4a;
 }
 
 #thank-you {
-    text-align:center;
+    text-align: center;
     padding-top: 200px;
 }
-#thank-you > .redirect > h2 {
-    color:#034539;
+
+#thank-you>.redirect>h2 {
+    color: #034539;
 }
 
 
@@ -204,6 +206,7 @@ a {
     background: url('../images/hero-image.avif');
     display: flex;
     flex-wrap: wrap;
+    bottom: 0;
 }
 
 #suggestions div {
@@ -215,6 +218,7 @@ a {
     flex-grow: 1;
     /* Offwhite border around divs */
     border: 2px solid #fffcf7;
+
 }
 
 #restaurants,
@@ -241,6 +245,10 @@ a {
     text-decoration: underline;
     padding: 15px;
     text-align: center;
+}
+
+#give-away>#suggestions {
+    bottom: 0;
 }
 
 /* Footer */
@@ -292,17 +300,25 @@ a {
         margin: 0 0.5rem;
     }
 
+    #give-away,
+    #suggestions {
+        width: 100%;
+        float: none;
+    }
+
     #give-away-form {
         max-width: 100%;
         position: absolute;
         left: 10px;
         top: 150px;
-        text-align:justify;
+        text-align: justify;
     }
 
-    #give-away-form > h2, #give-away-form > h3 {
+    #give-away-form>h2,
+    #give-away-form>h3 {
         padding-bottom: 20px;
     }
+
 
     /* Main content */
     main {
@@ -326,23 +342,24 @@ a {
     }
 
     .text-input:hover {
-        border-color:#034539;
+        border-color: #034539;
     }
-    
+
     .join-button:hover {
         background-color: #034539;
         color: #454b1b;
     }
 
     #give-away {
-        margin:0;
-        border:0;
-        padding:0;
+        margin: 0;
+        border: 0;
+        padding: 0;
     }
 
-    #give-away-form > h2, #give-away-form > h3 {
-        margin-bottom:0;
-        padding:0;
+    #give-away-form>h2,
+    #give-away-form>h3 {
+        margin-bottom: 0;
+        padding: 0;
     }
 
 }
@@ -380,6 +397,7 @@ a {
         padding-left: 20%;
     }
 
-    #give-away-form > h2, #give-away-form > h3 {
+    #give-away-form>h2,
+    #give-away-form>h3 {
         margin-bottom: 50px;
     }
