@@ -155,6 +155,14 @@ main {
     text-align: center;
 }
 
+/* hero image and cover text for victoria-falls.html */
+#vic-falls-hero {
+    height:800px;
+    width: 100%;
+    background: url("../images/vic-falls-hero.avif") no-repeat 60% center/cover;
+    position: relative;
+}
+
 .give-away-border {
     border-top: 2px solid #034539;
 }
@@ -391,6 +399,10 @@ a {
         bottom: 0;
         width: 80%;
         font-size: 150%;
+    }
+    /* Hero and covertext for victoria-falls.html */  
+    #vic-falls-hero {
+        height: 1000px;
     }
 
     .text-input:hover {
