@@ -101,7 +101,7 @@ main {
     flex-direction: column;
 
 }
-
+/* hero image and cover text for index.html */
 #hero {
     height: 400px;
     width: 100%;
@@ -123,6 +123,33 @@ main {
 }
 
 #cover-text>h3 {
+    font-family: 'Raleway', sans serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* hero image and cover text for great-zimbabwe.html */
+#hero-zim {
+    height: 400px;
+    width: 100%;
+    background: url("../images/great-zimbabwes-great-enclosure.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text-zim {
+    /* Final rgba value makes the color semi-transparent */
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fffcf7;
+    font-size: 130%;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 90%;
+    min-height: 80px;
+    padding-top: 40px,
+}
+
+#cover-text-zim>h3 {
     font-family: 'Raleway', sans serif;
     text-transform: capitalize;
     text-align: center;
@@ -331,11 +358,23 @@ a {
         padding: 20px;
     }
 
+    /* Hero and covertext for index.html */  
     #hero {
         height: 600px;
     }
 
     #cover-text {
+        bottom: 0;
+        width: 80%;
+        font-size: 150%;
+    }
+
+    /* Hero and covertext for great-zimbabwe.html */  
+    #hero-zim {
+        height: 600px;
+    }
+
+    #cover-text-zim {
         bottom: 0;
         width: 80%;
         font-size: 150%;
@@ -378,6 +417,18 @@ a {
         font-size: 150%;
     }
 
+    /* Hero image and covertext for index.html */
+    #hero {
+        height: 600px;
+    }
+
+    #cover-text {
+        bottom: 300px;
+        width: 60%;
+        font-size: 180%;
+    }
+
+    /* Hero image and covertext for great-zimbabwe.html */
     #hero {
         height: 600px;
     }
