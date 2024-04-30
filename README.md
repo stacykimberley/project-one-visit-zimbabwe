@@ -1,39 +1,69 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Visit Zimbabwe Website
 
-Welcome,
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+# Purpose
 
-## Codeanywhere Reminders
+The goal of this website is to showcase what a beautiful country Zimabwe is for potential tourists who have visited the country before, hoping to do it for the first time and even introduce it to people from all over the globe looking to exploreAfrica, but have never heard of this beauty.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Goal:
 
-`python3 -m http.server`
+-Give a brief summary of the country
+-have separate pages on the different tourist areas
+-suggest other things outside of tourist places such as restaurants, clubs, pubs and spas for relation
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+[Here's a link to the live website](https://stacykimberley.github.io/project-one-visit-zimbawe/)
 
-`http_server`
+# Featured Destinations
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Explore our website featuring stunning destinations in Zimbabwe:
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Victoria Falls
+Great Zimbabwe Ruins
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Other destinations will be added with time.
 
-To log into the Heroku toolbelt CLI:
+# UX Design 
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## User Stories
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### As a first time user:
 
----
+I want the website to be appealing to the eye.
+I want enough information to get me excited to visit, but not so much it would bore/ overwhelm me.
+I want to be able to send a question and get an answer if I need additional information.
+I want the information to be up to date and accurate
 
-Happy coding!
+### As a returning user:
+
+bullets
+I want to find more areas and suggestions added each time I come back.
+I want the information to be up to date and accurate.
+
+The website should be accesible on different sized screens (bold)
+
+# Structure
+
+## Home Page 
+
+### The home page will introduce the user to Zimbabwe as a country ie:
+bullets
+ Give information on where it is located in Africa.
+ What tourists can expect to find when they visit.
+ Summary on the what the weather is like with temperature ranges.
+ Short introduction to zimbabwean culture, traditions and languages spoken.
+
+
+## Great Zimbabwe Ruins Page
+
+### This page will tell the user:
+The location of the monument.
+Brief history of the place.
+Summary of what a visitor should expect to find at the location.
+
+
+
+
+
+
