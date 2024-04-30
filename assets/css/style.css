@@ -141,6 +141,25 @@ main {
     margin: 0;
 }
 
+.gallery-heading{
+    color:#4a4a4a;
+    text-decoration: underline;
+}
+
+/*Gallery for victoria-falls.html */
+#photos-vic {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 6%;
+}
+#photos-vic img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding: 10px;
+    margin: 0;
+}
+
 /* hero image and cover text for great-zimbabwe.html */
 #hero-zim {
     height: 400px;
@@ -369,6 +388,11 @@ a {
     }
 
     #photos {
+        padding-left: 10%;
+
+    }
+
+    #photos-vic {
         padding-left: 10%;
 
     }
