@@ -127,6 +127,19 @@ main {
     text-transform: capitalize;
     text-align: center;
 }
+/*Gallery for index.html */
+#photos {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 6%;
+}
+#photos img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding: 10px;
+    margin: 0;
+}
 
 /* hero image and cover text for great-zimbabwe.html */
 #hero-zim {
@@ -353,6 +366,11 @@ a {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
+    }
+
+    #photos {
+        padding-left: 10%;
+
     }
 
     #give-away,
