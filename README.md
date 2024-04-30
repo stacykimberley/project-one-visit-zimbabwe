@@ -34,6 +34,7 @@ Other destinations will be added with time.
 <li>I want enough information to get me excited to visit, but not so much it would bore/ overwhelm me.</li>
 <li>I want to be able to send a question and get an answer if I need additional information.</li>
 <li>I want the information to be up to date and accurate</li>
+<li>I want to see images of the places</li>
 </ul>
 
 ### As a returning user:
@@ -55,6 +56,7 @@ The website should be accesible on different sized screens (bold)
  <li>What tourists can expect to find when they visit.</li>
  <li>Summary on the what the weather is like with temperature ranges.</li>
  <li>Short introduction to zimbabwean culture, traditions and languages spoken.</li>
+ <li>Gallery with images from different tourist places in Zimbabwe.</li>
  </ul>
 
 
@@ -66,6 +68,7 @@ The website should be accesible on different sized screens (bold)
 <li>The location of the monument.</li>
 <li>Brief history of the place.</li>
 <li>Summary of what a visitor should expect to find at the location.</li>
+<li>Gallery with images from Great Zimbabwe Ruins.</li>
 </ul>
 
 ## Victoria Falls Page
@@ -76,6 +79,7 @@ The website should be accesible on different sized screens (bold)
 <li>The name in different languages and what they mean.</li>
 <li>Summary of what a visitor should expect to find at the location.</li>
 <li>Summary of activities and other things they can find in Victoria falls.</li>
+<li>Gallery with images from Victoria Falls.</li>
 </ul>
 
 ## Give Away Page
