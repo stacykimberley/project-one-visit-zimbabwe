@@ -259,6 +259,7 @@ i {
 
 #give-away {
     padding: 20px 10% 0 10%;
+    display:flex;
     flex-grow: 1;
     margin: 20px auto;
 }
@@ -462,6 +463,10 @@ a {
 
     }
 
+    #give-away {
+        margin-top: 200px;
+    }
+
     #give-away,
     #suggestions {
         width: 100%;
@@ -541,7 +546,7 @@ a {
     }
 
     #give-away {
-        margin: 0;
+        margin-top:80px ;
         border: 0;
         padding: 0;
     }
