@@ -42,12 +42,23 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    display: flex;
 }
 
 /* Remove default underlining on navigation links */
 header a {
     text-decoration: none;
     color: #fffcf7;
+}
+
+/* .logo-menu {
+    padding: 10px;
+    margin-bottom: 10px;
+} */
+
+.logo {
+    padding: 0 16px;
+
 }
 
 
@@ -388,7 +399,8 @@ a {
     }
 
     #menu>li {
-        padding-left: 1rem;
+        padding-left: 2.5rem;
+        font-size: smaller;
     }
 
     .nav-toggle-label {
@@ -424,7 +436,7 @@ a {
 
     #give-away-form {
         max-width: 100%;
-        position: absolute;
+        /* position: absolute; */
         left: 10px;
         top: 150px;
         text-align: justify;
@@ -510,6 +522,8 @@ a {
 
     #logo {
         font-size: 500%;
+        margin-top: 21px;
+        margin-bottom:20px;
     }
 
     #menu {

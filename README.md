@@ -110,8 +110,32 @@ Initially, this website was supposed to only have one page with the content star
 
 ## Images
 
-The images were found on Unsplash, Pexel and greatzimbabwe.com, 
+The images were found on Unsplash, Pexel and greatzimbabwe.com and the Zimbabwe Tourism Authority page.
 
+## Colors
+
+Not only do the green and yellow that colors are used match well with pictures of nature, but are also on the Zimbabwean flag. Initially white was going to be used, but a decision was made to use an off-white instead for backgrounds where there are no images.
+
+## Fonts
+
+"Pt Sans Narrow" is used for logo and headings and "Raleway" for paragraphs. Visually these fonts seem to go better together compared to "Josefin Sans" that was previously used for the logo and header, it seemed too serious for a website that's suggesting adventure and fun.
+
+## Technologies 
+
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>GitHub</li>
+<li>Gitpod</li>
+<li>Google Fonts</li>
+<li>Font Awesome</li>
+<li>Google Chrome Dev Tools</li>
+<li>Favicon.cc</li>
+<li>Schemecolor</li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
 
 
 
