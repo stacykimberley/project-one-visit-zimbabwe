@@ -112,6 +112,7 @@ main {
     flex-direction: column;
 
 }
+
 /* hero image and cover text for index.html */
 #hero {
     height: 400px;
@@ -142,18 +143,25 @@ main {
 i {
     padding-right: 15px;
 }
-/*Gallery for index.html */
 
 /* Create more space for headings on home page */
 .home-headings {
-    padding-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
+.great-zim-headings {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*Gallery for index.html */
 #photos {
     width: 100%;
     margin: 0 auto;
     padding-left: 6%;
 }
+
 #photos img {
     width: 300px;
     height: 300px;
@@ -162,8 +170,8 @@ i {
     margin: 0;
 }
 
-.gallery-heading{
-    color:#4a4a4a;
+.gallery-heading {
+    color: #4a4a4a;
     text-decoration: underline;
 }
 
@@ -173,6 +181,7 @@ i {
     margin: 0 auto;
     padding-left: 6%;
 }
+
 #photos-vic img {
     width: 300px;
     height: 300px;
@@ -187,6 +196,7 @@ i {
     margin: 0 auto;
     padding-left: 6%;
 }
+
 #photos-great img {
     width: 300px;
     height: 300px;
@@ -224,17 +234,17 @@ i {
 
 /* hero image and cover text for victoria-falls.html */
 #vic-falls-hero {
-    height:800px;
+    height: 800px;
     width: 100%;
     background: url("../images/vic-falls-hero.avif") no-repeat 60% center/cover;
     position: relative;
 }
 
 .vic-falls-cover-text {
-    color:#fffcf7;
-    text-align:center;
-    background-color:rgba(0, 0, 0, 0.2);
-    height:100%;
+    color: #fffcf7;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
 }
 
 .give-away-border {
@@ -312,13 +322,14 @@ a {
 /* Change font color for h2 in giveaway page align text center*/
 
 .great-zim-headings {
-    color:#034539;
-    padding: 20px;
+    color: #034539;
+    padding-bottom: 100px;
+    padding-top: 30px;
     text-decoration: underline;
 }
 
 .great-zim-info {
-    text-align:center;
+    text-align: center;
     padding: 20px;
 }
 
@@ -469,7 +480,7 @@ a {
         padding: 20px;
     }
 
-    /* Hero and covertext for index.html */  
+    /* Hero and covertext for index.html */
     #hero {
         height: 600px;
     }
@@ -480,7 +491,7 @@ a {
         font-size: 150%;
     }
 
-    /* Hero and covertext for great-zimbabwe.html */  
+    /* Hero and covertext for great-zimbabwe.html */
     #hero-zim {
         height: 600px;
     }
@@ -490,9 +501,21 @@ a {
         width: 80%;
         font-size: 150%;
     }
-    /* Hero and covertext for victoria-falls.html */  
+
+    /* Hero and covertext for victoria-falls.html */
     #vic-falls-hero {
         height: 1000px;
+    }
+
+    /* Create more space for headings on home page */
+    .home-headings {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .great-zim-headings {
+        padding-top: 30px;
+        padding-bottom: 50px;
     }
 
     .text-input:hover {
@@ -533,7 +556,7 @@ a {
     #logo {
         font-size: 500%;
         margin-top: 21px;
-        margin-bottom:20px;
+        margin-bottom: 20px;
     }
 
     #menu {
@@ -558,9 +581,20 @@ a {
 
     #cover-text-zim {
         bottom: 300px;
-        left:25%;
+        left: 25%;
         width: 50%;
         font-size: 180%;
+    }
+
+    /* Create more space for headings on home page */
+    .home-headings {
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+
+    .great-zim-headings {
+        padding-top: 30px;
+        padding-bottom: 80px;
     }
 
     .brief-description {
@@ -580,5 +614,5 @@ a {
     .vic-falls-cover-text {
         padding-left: 150px;
         padding-right: 150px;
-        
+
     }
