@@ -1,6 +1,6 @@
 # Visit Zimbabwe Website
 
-![Website Mockup](assets/images/readme/mockup.png)
+![Website Mockup](assets/images/readme/mock-up.png)
 
 # Purpose
 
