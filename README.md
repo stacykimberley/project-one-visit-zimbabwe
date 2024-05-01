@@ -95,14 +95,19 @@ The website should be accesible on different sized screens (bold)
 
 ### Home Page
 
-insert drawn images
+![Home Page Mockup](assets/images/readme/home-mockup.PNG)
+
 ### Great Zimbabwe Page
 
+![Great Zimbabwe Page Mockup](assets/images/readme/great-mockup.PNG)
 
 ### Victoria Falls Page
 
+![Victoria Falls Page Mockup](assets/images/readme/vic-mockup.PNG)
 
 ### Give Away Page
+
+![Give Away Page Mockup](assets/images/readme/give-mockup.PNG)
 
 ## Design
 
