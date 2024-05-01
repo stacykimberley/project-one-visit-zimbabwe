@@ -35,7 +35,7 @@ Other destinations will be added with time.
 <li>I want to be able to send a question and get an answer if I need additional information.</li>
 <li>I want the information to be up to date and accurate</li>
 <li>I want to see images of the places.</li>
-<li>I want to view the site without being overwhelmed by the content.</li>
+<li>I want suggestions for restaurants, clubs and other fun places.</li>
 </ul>
 
 ### As a returning user:
@@ -166,9 +166,21 @@ For mobile phones the nav bar is in a "hamburger menu" which extends to show all
 
 ![Give away page](assets/images/readme/give-form.jpg)
 
+### Footer
+
+![Footer](assets/images/readme/footer.jpg)
+
+The footer includes links to Facebook, Twitter, Youtube and Instagram pages.
+
 ## Responsive Layout
 
 The page is designed to responsive on all screen sizes starting from 344pixels for mobile phones, 768 pixels for tablets and greater than 992pixels so it's aesthetically pleasing for laptops and slightly larger screens.
+
+## Testing 
+
+### User Story Testing
+
+[User story testing table](assets/images/readme/table-user.jpg)
 
 ## Technologies 
 
