@@ -593,6 +593,11 @@ a {
         font-size: 180%;
     }
 
+    .cover-text {
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+
     /* Create more space for headings on home page */
     .home-headings {
         padding-top: 30px;
