@@ -51,11 +51,6 @@ header a {
     color: #fffcf7;
 }
 
-/* .logo-menu {
-    padding: 10px;
-    margin-bottom: 10px;
-} */
-
 .logo {
     padding: 0 16px;
 
@@ -153,6 +148,14 @@ i {
 .great-zim-headings {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.page-summary {
+    line-height: 1.5;
+    padding-right: 20px;
+    padding-left:20px;
+    padding-bottom: 20px;
+    text-align:center;
 }
 
 /*Gallery for index.html */
@@ -323,8 +326,6 @@ a {
 
 .great-zim-headings {
     color: #034539;
-    padding-bottom: 100px;
-    padding-top: 30px;
     text-decoration: underline;
 }
 
@@ -426,6 +427,12 @@ a {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    .page-summary {
+        padding-bottom: 40px;
+        padding-right: 60px;
+        padding-left: 60px;
     }
 
     #logo {
@@ -597,12 +604,14 @@ a {
         padding-bottom: 80px;
     }
 
-    .page-summary {
-        line-height: 1.5;
-    }
-
     .brief-description {
         padding: 100px;
+    }
+
+    .page-summary {
+        padding-bottom: 60px;
+        padding-right: 100px;
+        padding-left: 100px;
     }
 
     #give-away-form {
