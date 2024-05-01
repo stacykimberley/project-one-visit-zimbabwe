@@ -176,6 +176,8 @@ i {
 .gallery-heading {
     color: #4a4a4a;
     text-decoration: underline;
+    padding-bottom: 20px;
+    text-align:center;
 }
 
 /*Gallery for victoria-falls.html */
@@ -332,6 +334,10 @@ a {
 .great-zim-info {
     text-align: center;
     padding: 20px;
+}
+
+#gallery-vic {
+    padding-top: 30px;
 }
 
 /* Suggestions section */
