@@ -34,7 +34,8 @@ Other destinations will be added with time.
 <li>I want enough information to get me excited to visit, but not so much it would bore/ overwhelm me.</li>
 <li>I want to be able to send a question and get an answer if I need additional information.</li>
 <li>I want the information to be up to date and accurate</li>
-<li>I want to see images of the places</li>
+<li>I want to see images of the places.</li>
+<li>I want to view the site without being overwhelmed by the content.</li>
 </ul>
 
 ### As a returning user:
@@ -124,6 +125,50 @@ Not only do the green and yellow that colors are used match well with pictures o
 ## Fonts
 
 "Pt Sans Narrow" is used for logo and headings and "Raleway" for paragraphs. Visually these fonts seem to go better together compared to "Josefin Sans" that was previously used for the logo and header, it seemed too serious for a website that's suggesting adventure and fun.
+
+## Features
+
+ ### Navigation Bar
+
+ ![Nav Bar Large screen](assets/images/readme/nav-bar.jpg)
+
+- Sticky navigation bar is on all 4 pages. It includes links to the Home page, Great Zimbabwe page, Victoria Falls page and Give away page to allow he user to easily navigate different pages of the website easily. The layout is identical on all pages.
+
+![Nav Bar small screen](assets/images/readme/nav-bar2.jpg)
+
+For mobile phones the nav bar is in a "hamburger menu" which extends to show all four links when clicked.
+
+### Home Page Hero Image
+
+![Home Hero](assets/images/readme/home-hero.jpg)
+
+### Home Gallery
+
+![Home Gallery](assets/images/readme/home-gallery.jpg)
+
+### Great Zimbabwe Hero Image
+
+![Great Hero](assets/images/readme/great-hero.jpg)
+
+### Great Zimbabwe Gallery
+
+![Great Gallery](assets/images/readme/great-gallery-shot.jpg)
+
+### Victoria Falls Hero 
+
+![Vic Hero](assets/images/readme/vic-hero.jpg)
+
+### Victoria Falls Hero 
+
+![Vic Gallery](assets/images/readme/vic-gallery-shot.jpg)
+
+### Give Away Form & Suggestions
+
+![Give away page](assets/images/readme/give-form.jpg)
+
+## Responsive Layout
+
+The page is designed to responsive on all screen sizes starting from 344pixels for mobile phones, 768 pixels for tablets and greater than 992pixels so it's aesthetically pleasing for laptops and slightly larger screens.
 
 ## Technologies 
 
