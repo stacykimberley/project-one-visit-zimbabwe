@@ -138,6 +138,10 @@ main {
     text-transform: capitalize;
     text-align: center;
 }
+
+i {
+    padding-right: 15px;
+}
 /*Gallery for index.html */
 #photos {
     width: 100%;
