@@ -1,6 +1,6 @@
 # Visit Zimbabwe Website
 
-
+![Website Mockup](assets/images/readme/mockup.png)
 
 # Purpose
 
@@ -132,8 +132,14 @@ Not only do the green and yellow that colors are used match well with pictures o
 <li>Google Chrome Dev Tools</li>
 <li>Favicon.cc</li>
 <li>Schemecolor</li>
-<li></li>
-<li></li>
+<li>Techsini</li>
+<li>Google chrome Lighthouse</li>
+<li>Screen Reader for Google Chrome</li>
+<li>Colorfilter</li>
+<li>W3C HTML Markup Validator</li>
+<li>W3C Jigsaw CSS Validator</li>
+<li>Markdown Tables Generator</li>
+<li>Code Institute's Gitpod Template to generate the workspace for the project</li>
 <li></li>
 <li></li>
 
