@@ -143,6 +143,12 @@ i {
     padding-right: 15px;
 }
 /*Gallery for index.html */
+
+/* Create more space for headings on home page */
+.home-headings {
+    padding-bottom: 100px;
+}
+
 #photos {
     width: 100%;
     margin: 0 auto;
