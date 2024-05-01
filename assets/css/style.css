@@ -597,6 +597,10 @@ a {
         padding-bottom: 80px;
     }
 
+    .page-summary {
+        line-height: 1.5;
+    }
+
     .brief-description {
         padding: 100px;
     }
