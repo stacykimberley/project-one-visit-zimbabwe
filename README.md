@@ -164,7 +164,7 @@ For mobile phones the nav bar is in a "hamburger menu" which extends to show all
 
 ### Give Away Form & Suggestions
 
-![Give away page](assets/images/readme/give-form.jpg)
+![Give away page](assets/images/readme/form-desktop-new.jpg)
 
 ### Footer
 
