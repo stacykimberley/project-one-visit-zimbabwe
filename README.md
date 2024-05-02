@@ -13,7 +13,7 @@ The goal of this website is to showcase what a beautiful country Zimabwe is for 
 -suggest other things outside of tourist places such as restaurants, clubs, pubs and spas for relation
 
 
-[Here's a link to the live website](https://stacykimberley.github.io/project-one-visit-zimbawe/)
+[Here's a link to the live website](https://stacykimberley.github.io/project-one-visit-zimbabwe/)
 
 # Featured Destinations
 
@@ -268,14 +268,14 @@ Desktop
 Below errors were returned because of spaces in font names, no changes were made.
 ![Errors](assets/images/readme/errors.jpg)
 
-One font that was used for paragrapha has a space in the name which keeps returning errors. This has not been changed because that is the font name and if altered would ruin page aesthetics.
+One font that was used for paragraphs has a space in the name which keeps returning errors. This has not been changed because that is the font name and if altered would ruin page aesthetics.
 
 ## Deployment
 
 This project was deployed to GitHub pages. The steps to deploy are as follows:
 
 1. Log into GitHub.
-2. Select sofing from the list of repositories.
+2. Select project-one-visit-zimbabwe from the list of repositories.
 3. Select Settings From the Repositories sub-headings.
 4. In the left side menu select Pages from Code and automation section.
 5. Under the Source heading in the dropdown menu select main.
@@ -284,13 +284,13 @@ This project was deployed to GitHub pages. The steps to deploy are as follows:
 8. A message that the website is ready to be deployed will appear, refresh the page and the link to the deployed site will be available in a green sub-section on the top of the page.
 9. Click on the link to go to the live deployed page.
 
-[Here's a link to the live website](https://stacykimberley.github.io/project-one-visit-zimbawe/)
+[Here's a link to the live website](https://stacykimberley.github.io/project-one-visit-zimbabwe/)
 
 How to run this project Locally
 
 **Clone the repository**
 
-1. Navigate to the GitHub Repository oks-erm/sofing.
+1. Navigate to the GitHub Repository project-one-visit-zimbabwe.
 2. Click the Code drop-down menu.
 3. Click the HTTPS sub-heading under the Clone heading.
 4. Copy the link.
@@ -300,7 +300,7 @@ How to run this project Locally
 
 **Download the repository manually**
 
-1. Navigate to the GitHub Repository oks-erm/sofing.
+1. Navigate to the GitHub Repository project-one-visit-zimbabwe.
 2. Click the Code drop-down menu.
 3. Click Download ZIP.
 4. Locate the ZIP file and extract it to a folder where you want the repository to be stored.
@@ -313,9 +313,30 @@ How to run this project Locally
 
 ### Content
 
+- Inserts of Home page paragraphs, Great Zimbabwe paragraphs and Victoria falls paragraphs found on [ZTA Website](https://zimbabwetourism.net/)
+- Inserts of Home page paragraphs, Great Zimbabwe paragraphs and Victoria falls paragraphs found on [Wikipedia](https://en.wikipedia.org/wiki/Zimbabwe)
+- Deployment instructions found [here](https://github.com/oks-erm/sofing/)
+- Structure of README.md found [here](https://github.com/Code-Institute-Solutions/readme-template?tab=readme-ov-file) and [here](https://github.com/oks-erm/sofing/).
+
 
 
 ### Media
+
+- Home page hero image and Suggestons section background image by Benjamin Van Der Merwe from [Unsplash](https://unsplash.com/)
+- Great Zimbabwe hero image by unnamed photographer from [Great Zimbabwe Ruins](http://www.greatzimbabweruins.com/)
+- Victoria Falls hero image by Sammy Wong from [Unsplash](https://unsplash.com/)
+- All gallery images by an unnamed photographer from [Zimbabwe Tourism Authority website](https://zimbabwetourism.net/)
+
+### Code
+
+- Gallery code taught by Hazel Hawadi.
+- Code Snippet for Hamburger menu from Code Institute Love Running walk-through then modified.
+- Flexbox code was aided by Code Institute Love Running walk-through then modified.
+- Suggestions code was inspired by Code Institute IDE lessons and modified.
+- Hero images and cover texts learnt from Code Institute IDE learnings and modified.
+- Form code helped by Johnson Godwin and modified.
+
+
 
 
 
