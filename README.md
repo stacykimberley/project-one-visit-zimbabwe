@@ -176,34 +176,147 @@ The footer includes links to Facebook, Twitter, Youtube and Instagram pages.
 
 The page is designed to responsive on all screen sizes starting from 344pixels for mobile phones, 768 pixels for tablets and greater than 992pixels so it's aesthetically pleasing for laptops and slightly larger screens.
 
+## Technologies 
+
+<ul>
+<li>HTML for website structure</li>
+<li>CSS to style website</li>
+<li>GitHub to store the source code and GitHub Pages to deploy and host the live site</li>
+<li>Gitpod chosen IDE to develop the website</li>
+<li>Google Fonts</li>
+<li>Font Awesome for icons</li>
+<li>Google Chrome Dev Tools</li>
+<li>Favicon.cc to choose favicons for all pages</li>
+<li>Schemecolor to choose color palette</li>
+<li>Techsini to create mockup of website on different iOS devices</li>
+<li>Google chrome Lighthouse</li>
+<li>Screen Reader for Google Chrome</li>
+<li>Colorfilter</li>
+<li>W3C HTML Markup Validator to validate HTML code</li>
+<li>W3C Jigsaw CSS Validator to validate CSS code</li>
+<li>Markdown Tables Generator to create user experience testing table</li>
+<li>LibreOffice Calc to create tables</li>
+<li>Code Institute's Gitpod Template to generate the workspace for the project</li>
+<li>Code institute learning for general guidance </li>
+
 ## Testing 
 
 ### User Story Testing
 
-[User story testing table](assets/images/readme/table-user.jpg)
+![User story testing table](assets/images/readme/table-user.jpg)
 
-## Technologies 
+### Feature Testing 
 
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>GitHub</li>
-<li>Gitpod</li>
-<li>Google Fonts</li>
-<li>Font Awesome</li>
-<li>Google Chrome Dev Tools</li>
-<li>Favicon.cc</li>
-<li>Schemecolor</li>
-<li>Techsini</li>
-<li>Google chrome Lighthouse</li>
-<li>Screen Reader for Google Chrome</li>
-<li>Colorfilter</li>
-<li>W3C HTML Markup Validator</li>
-<li>W3C Jigsaw CSS Validator</li>
-<li>Markdown Tables Generator</li>
-<li>Code Institute's Gitpod Template to generate the workspace for the project</li>
-<li></li>
-<li></li>
+3 browsers were used to achieve this. See results below.
+
+![Feature testing](assets/images/readme/test-case.jpg)
+
+### Validator Testing 
+
+#### HTML on [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+No errors or warnings were returned.
+
+#### CSS on [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+
+Below errors were returned because of spaces in font names, no changes were made.
+![Errors](assets/images/readme/errors.jpg)
+
+#### Google Lighthouse
+
+**Homepage**
+
+Mobile 
+
+![Mobile](assets/images/readme/home-mobile.jpg)
+
+Desktop
+
+![Home](assets/images/readme/home-desktop.jpg)
+
+**Great Zimbabwe**
+
+Mobile 
+
+![Great](assets/images/readme/great-mobile.jpg)
+
+Desktop
+
+![Great](assets/images/readme/great-desktop.jpg)
+
+**Victoria Falls**
+
+Mobile 
+
+![Vic](assets/images/readme/vic-mobile.jpg)
+
+Desktop
+
+![Vic](assets/images/readme/vic-desktop.jpg)
+
+**Give away**
+
+Mobile 
+
+![Form](assets/images/readme/form-mobile.jpg)
+
+Desktop
+
+![Form](assets/images/readme/form-desktop.jpg)
+
+### Unfixed Bugs
+
+Below errors were returned because of spaces in font names, no changes were made.
+![Errors](assets/images/readme/errors.jpg)
+
+One font that was used for paragrapha has a space in the name which keeps returning errors. This has not been changed because that is the font name and if altered would ruin page aesthetics.
+
+## Deployment
+
+This project was deployed to GitHub pages. The steps to deploy are as follows:
+
+1. Log into GitHub.
+2. Select sofing from the list of repositories.
+3. Select Settings From the Repositories sub-headings.
+4. In the left side menu select Pages from Code and automation section.
+5. Under the Source heading in the dropdown menu select main.
+6. A second drop-down menu should remain with the default value /(root).
+7. Press Save.
+8. A message that the website is ready to be deployed will appear, refresh the page and the link to the deployed site will be available in a green sub-section on the top of the page.
+9. Click on the link to go to the live deployed page.
+
+[Here's a link to the live website](https://stacykimberley.github.io/project-one-visit-zimbawe/)
+
+How to run this project Locally
+
+**Clone the repository**
+
+1. Navigate to the GitHub Repository oks-erm/sofing.
+2. Click the Code drop-down menu.
+3. Click the HTTPS sub-heading under the Clone heading.
+4. Copy the link.
+5. Open an IDE of your choice (VSCode, Atom, Komodo, etc).
+6. Open a terminal in the directory of your choice, type git clone and paste the link.
+7. A clone of the repository will now be created on your machine.
+
+**Download the repository manually**
+
+1. Navigate to the GitHub Repository oks-erm/sofing.
+2. Click the Code drop-down menu.
+3. Click Download ZIP.
+4. Locate the ZIP file and extract it to a folder where you want the repository to be stored.
+5. Open an IDE of your choice (VSCode, Atom, Komodo, etc).
+6. Navigate to the directory where the repository was extracted.
+7. Now you will have the contents of the project available offline on your machine.
+
+
+## Credits
+
+### Content
+
+
+
+### Media
+
 
 
 

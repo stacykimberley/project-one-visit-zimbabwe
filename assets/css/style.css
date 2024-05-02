@@ -110,7 +110,7 @@ main {
 
 /* hero image and cover text for index.html */
 #hero {
-    height: 400px;
+    height: 350px;
     width: 100%;
     background: url("../images/hero-image.avif") no-repeat center center/cover;
     position: relative;
