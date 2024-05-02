@@ -336,6 +336,18 @@ How to run this project Locally
 - Hero images and cover texts learnt from Code Institute IDE learnings and modified.
 - Form code helped by Johnson Godwin and modified.
 
+### Acknowledgements
+
+I would like to express my gratitude to the following individuals for their contributions and support:
+
+My mentor, Ronan McClelland for great support, advice, learning reasources and guidance throughout this project.
+
+My sister Hazel Hawadi and partner Johnson Godwin for moral support and help with coding.
+
+
+
+
+
 
 
 
